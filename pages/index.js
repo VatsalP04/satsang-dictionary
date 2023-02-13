@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          {/* <a
+          {/*  <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
@@ -93,9 +93,9 @@ export default function Home() {
             <p className={inter.className}>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
             </p>
-          </a> */}
+          </a> 
 
-          {/* <a
+           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
@@ -108,7 +108,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a shareable URL
               with&nbsp;Vercel.
             </p>
-          </a> */}
+          </a>  */}
         </div> 
       </main>
     </>
@@ -116,7 +116,7 @@ export default function Home() {
 }
 
 let count=0 
-let figureEL=document.getElementById("figure-el")  
+let figureEL = document.getElementById("figure-el")  
 
 function addone(){
   count += 1
